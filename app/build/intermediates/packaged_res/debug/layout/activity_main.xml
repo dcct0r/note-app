@@ -28,6 +28,7 @@
         android:id="@+id/audioNotesList"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/min_icon_size"
 
         app:layout_constraintTop_toBottomOf="@id/titleAudioNote"
         app:layout_constraintBottom_toTopOf="@id/startRecording"
@@ -40,14 +41,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/mic_24"
-        android:minWidth="@dimen/min_icon_size"
-        android:minHeight="@dimen/min_icon_size"
+        android:minWidth="64dp"
+        android:minHeight="64dp"
         android:background="@drawable/circle_shape"
         android:contentDescription="@string/recording_button"
         android:layout_marginBottom="@dimen/default_margins"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/audioNotesList"
         app:layout_constraintBottom_toTopOf="@id/bottomNavPanel"
         />
 
