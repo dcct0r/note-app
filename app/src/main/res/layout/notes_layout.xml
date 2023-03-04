@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margins"
+    tools:context="note.NotesActivity">
+
+    <TextView
+        android:id="@+id/titleNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margins"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/black"
+        android:text="@string/notes"
+        android:textSize="36sp"
+
+        app:layout_constraintBottom_toTopOf="@id/notesList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/newNoteThoughts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/round_add_circle_24"
+        android:background="@null"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/titleNotes"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_constraintTop_toBottomOf="@id/titleNotes"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavPanel"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

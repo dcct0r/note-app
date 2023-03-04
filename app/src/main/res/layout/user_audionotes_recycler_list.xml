@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cardCornerRadius="40dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margins"
+            android:background="@color/note_background"
+            >
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/middleLine"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="125dp"
+
+                />
+
+            <TextView
+                android:id="@+id/user_title_note"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/headline"
+                android:fontFamily="@font/roboto_bold"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:hint="@string/headline"
+
+                app:layout_constraintVertical_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/middleLine"
+                app:layout_constraintBottom_toTopOf="@id/data_of_the_note"
+                />
+
+            <TextView
+                android:id="@+id/data_of_the_note"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:textSize="@dimen/supporting_text"
+                android:text="data of the recording"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/user_title_note"
+                app:layout_constraintEnd_toStartOf="@id/middleLine"
+                />
+
+            <ImageButton
+                android:id="@+id/play_or_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:contentDescription="@string/start_playing"
+
+                android:src="@drawable/play_48"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/deleteCurrentAudioNote"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/deleteCurrentAudioNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/delete_24"
+                android:minWidth="@dimen/min_icon_size"
+                android:minHeight="@dimen/min_icon_size"
+                android:background="@null"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

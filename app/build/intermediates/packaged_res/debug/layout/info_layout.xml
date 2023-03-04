@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margins"
+    tools:context="InfoActivity.InfoActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="28sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="@string/info"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:text="@string/java_tm_se_runtime_environment_build_1_8_0"
+
+        app:layout_constraintTop_toBottomOf="@id/text3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:text="@string/android_studio_electric_eel_2022_1_1"
+
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:text="@string/database_room_version_2_5_0"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:text="@string/release_version_0_0_1"
+        android:gravity="bottom|end"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavPanel"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

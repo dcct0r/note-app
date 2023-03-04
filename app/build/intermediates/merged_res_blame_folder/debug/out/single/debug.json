@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_note_description.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\note_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_settings_layout.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\settings_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_stop_recording_48.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\stop_recording_48.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\menu_menu_description.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\menu\\menu_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_circle_shape.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\circle_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_round_info_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\round_info_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_notes_layout.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\notes_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_recycler_vertical_spacing.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\recycler_vertical_spacing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_nav_settings_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\nav_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_user_audionotes_recycler_list.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\user_audionotes_recycler_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_recycler_spacing_custom.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\recycler_spacing_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_user_notes_recycler_list.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\user_notes_recycler_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_round_add_circle_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\round_add_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_nav_mic_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\nav_mic_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_pause_48.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\pause_48.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_round_create_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\round_create_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_play_48.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\play_48.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_mic_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\mic_24.xml"
+    },
+    {
+        "merged": "com.example.audionote.app-merged_res-33:/layout_info_layout.xml.flat",
+        "source": "com.example.audionote.app-main-35:/layout/info_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_delete_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\delete_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_nav_note_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\nav_note_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\font_roboto_bold.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\font\\roboto_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_baseline_refresh_24.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\baseline_refresh_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-pngs-28:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_info_layout.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\info_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\font_roboto.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\font\\roboto.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    }
+]

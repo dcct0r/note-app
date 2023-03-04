@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Audio note</string>
+    <string name="audio_notes">Audio Notes</string>
+    <string name="notes">Notes</string>
+    <string name="your_notes">Audio Notes</string>
+    <string name="settings">Settings</string>
+    <string name="nav_button_settings">nav_button_settings</string>
+    <string name="nav_button_notes">nav_button_notes</string>
+    <string name="recording_button">recording_button</string>
+    <string name="nav_button_mic">nav_button_mic</string>
+    <string name="nav_audio_notes">Audio Notes</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="write_your_thoughts_here">Write your thoughts here</string>
+    <string name="start_playing">Start playing</string>
+    <string name="headline">Headline</string>
+    <string name="info">Info</string>
+    <string name="database_room_version_2_5_0">Database Room version: 2.5.0</string>
+    <string name="android_studio_electric_eel_2022_1_1">Android studio: Electric Eel | 2022.1.1</string>
+    <string name="release_version_0_0_1">Release version: 0.0.1</string>
+    <string name="java_tm_se_runtime_environment_build_1_8_0">Java(TM) SE Runtime Environment: build 1.8.0</string>
+</resources>

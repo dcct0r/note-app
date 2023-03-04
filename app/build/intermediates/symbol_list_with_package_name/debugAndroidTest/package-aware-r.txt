@@ -1,0 +1,3 @@
+com.example.audionote.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

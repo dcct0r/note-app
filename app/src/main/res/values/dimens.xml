@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_margins">16dp</dimen>
+    <dimen name="min_icon_size">48dp</dimen>
+    <dimen name="headline">16sp</dimen>
+    <dimen name="supporting_text">14sp</dimen>
+    <dimen name="label_medium">12sp</dimen>
+
+</resources>

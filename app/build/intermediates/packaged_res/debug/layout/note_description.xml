@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/note_background"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/write_your_thoughts_here"
+        android:fontFamily="@font/roboto"
+        android:textSize="@dimen/headline"
+        android:layout_marginStart="@dimen/default_margins"
+        android:layout_marginEnd="@dimen/default_margins"
+        android:layout_marginTop="@dimen/default_margins"
+        android:padding="16dp"
+
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
