@@ -53,89 +53,90 @@
 31-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:10:9-52
 32        android:supportsRtl="true"
 32-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:17:9-35
-33        android:theme="@style/Theme.AudioNote" >
-33-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:18:9-47
-34        <activity
-34-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:20:9-30:20
-35            android:name="com.example.audionote.MainActivity"
-35-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:21:13-41
-36            android:exported="true"
-36-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:22:13-36
-37            android:screenOrientation="portrait" >
-37-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:23:13-49
-38            <intent-filter>
-38-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:25:13-29:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:26:17-69
-39-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:26:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:28:17-77
-41-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:28:27-74
-42            </intent-filter>
-43        </activity>
-44
-45        <meta-data
-45-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:31:9-33:57
-46            android:name="preloaded_fonts"
-46-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:32:13-43
-47            android:resource="@array/preloaded_fonts" />
-47-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:33:13-54
-48
-49        <activity
-49-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:35:9-39:20
-50            android:name="note.NotesActivity"
-50-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:35:19-52
-51            android:screenOrientation="portrait" >
-51-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:36:13-49
-52        </activity>
-53        <activity
-53-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:41:9-45:20
-54            android:name="InfoActivity.InfoActivity"
-54-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:41:19-59
-55            android:screenOrientation="portrait" >
-55-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:42:13-49
-56        </activity>
-57        <activity
-57-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:47:9-52:20
-58            android:name="UiScreen.description.NoteDescription"
-58-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:47:19-70
-59            android:screenOrientation="portrait"
-59-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:49:13-49
-60            android:theme="@style/AppTheme.NoActionBar" >
-60-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:48:13-56
-61        </activity>
-62
-63        <service
-63-->[androidx.room:room-runtime:2.5.0] C:\Users\Roman\.gradle\caches\transforms-3\3a81bcb07fcda7d8ef9454298e3df2b0\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
-64            android:name="androidx.room.MultiInstanceInvalidationService"
-64-->[androidx.room:room-runtime:2.5.0] C:\Users\Roman\.gradle\caches\transforms-3\3a81bcb07fcda7d8ef9454298e3df2b0\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
-65            android:directBootAware="true"
-65-->[androidx.room:room-runtime:2.5.0] C:\Users\Roman\.gradle\caches\transforms-3\3a81bcb07fcda7d8ef9454298e3df2b0\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
-66            android:exported="false" />
-66-->[androidx.room:room-runtime:2.5.0] C:\Users\Roman\.gradle\caches\transforms-3\3a81bcb07fcda7d8ef9454298e3df2b0\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
-67
-68        <provider
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-69            android:name="androidx.startup.InitializationProvider"
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-70            android:authorities="com.example.audionote.androidx-startup"
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-71            android:exported="false" >
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-72            <meta-data
-72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-74                android:value="androidx.startup" />
-74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-75            <meta-data
-75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Roman\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Roman\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-77                android:value="androidx.startup" />
-77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Roman\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-78        </provider>
-79    </application>
-80
-81</manifest>
+33        android:testOnly="true"
+34        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+34-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:18:9-65
+35        <activity
+35-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:20:9-30:20
+36            android:name="com.example.audionote.MainActivity"
+36-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:21:13-41
+37            android:exported="true"
+37-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:22:13-36
+38            android:screenOrientation="portrait" >
+38-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:23:13-49
+39            <intent-filter>
+39-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:25:13-29:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:26:17-69
+40-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:26:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:28:17-77
+42-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:28:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:31:9-33:57
+47            android:name="preloaded_fonts"
+47-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:32:13-43
+48            android:resource="@array/preloaded_fonts" />
+48-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:33:13-54
+49
+50        <activity
+50-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:35:9-39:20
+51            android:name="note.NotesActivity"
+51-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:35:19-52
+52            android:screenOrientation="portrait" >
+52-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:36:13-49
+53        </activity>
+54        <activity
+54-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:41:9-45:20
+55            android:name="InfoActivity.InfoActivity"
+55-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:41:19-59
+56            android:screenOrientation="portrait" >
+56-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:42:13-49
+57        </activity>
+58        <activity
+58-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:47:9-52:20
+59            android:name="UiScreen.description.NoteDescription"
+59-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:47:19-70
+60            android:screenOrientation="portrait"
+60-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:49:13-49
+61            android:theme="@style/AppTheme.NoActionBar" >
+61-->C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:48:13-56
+62        </activity>
+63
+64        <service
+64-->[androidx.room:room-runtime:2.5.0] C:\Users\Roman\.gradle\caches\transforms-3\3a81bcb07fcda7d8ef9454298e3df2b0\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+65            android:name="androidx.room.MultiInstanceInvalidationService"
+65-->[androidx.room:room-runtime:2.5.0] C:\Users\Roman\.gradle\caches\transforms-3\3a81bcb07fcda7d8ef9454298e3df2b0\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+66            android:directBootAware="true"
+66-->[androidx.room:room-runtime:2.5.0] C:\Users\Roman\.gradle\caches\transforms-3\3a81bcb07fcda7d8ef9454298e3df2b0\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+67            android:exported="false" />
+67-->[androidx.room:room-runtime:2.5.0] C:\Users\Roman\.gradle\caches\transforms-3\3a81bcb07fcda7d8ef9454298e3df2b0\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+71            android:authorities="com.example.audionote.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Roman\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Roman\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Roman\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Roman\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+79        </provider>
+80    </application>
+81
+82</manifest>

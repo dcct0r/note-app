@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initialise();
-        getSupportActionBar().hide();
         switchingActivities();
 
         String path = MainActivity.this.getExternalFilesDir("/").getAbsolutePath();

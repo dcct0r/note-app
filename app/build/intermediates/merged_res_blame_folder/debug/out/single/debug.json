@@ -72,10 +72,6 @@
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.audionote.app-merged_res-33:/layout_user_audionotes_recycler_list.xml.flat",
-        "source": "com.example.audionote.app-main-35:/layout/user_audionotes_recycler_list.xml"
-    },
-    {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_user_audionotes_recycler_list.xml.flat",
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\user_audionotes_recycler_list.xml"
     },
@@ -104,6 +100,14 @@
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\pause_48.xml"
     },
     {
+        "merged": "com.example.audionote.app-merged_res-33:/layout_notes_layout.xml.flat",
+        "source": "com.example.audionote.app-main-35:/layout/notes_layout.xml"
+    },
+    {
+        "merged": "com.example.audionote.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.example.audionote.app-main-35:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_mic_24.xml.flat",
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\mic_24.xml"
+    },
+    {
+        "merged": "com.example.audionote.app-merged_res-33:/layout_info_layout.xml.flat",
+        "source": "com.example.audionote.app-main-35:/layout/info_layout.xml"
     },
     {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_delete_24.xml.flat",

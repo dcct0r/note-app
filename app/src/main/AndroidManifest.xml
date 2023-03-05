@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:name=".BeforeAppStart"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AudioNote"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"

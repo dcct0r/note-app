@@ -32,7 +32,6 @@ public class NotesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.notes_layout);
-        getSupportActionBar().hide();
         switchingActivities();
 
         recyclerView = findViewById(R.id.notesList);
