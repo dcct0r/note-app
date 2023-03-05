@@ -7,8 +7,7 @@ AudioNote       |  Note
 ![AudioNote](https://user-images.githubusercontent.com/111187206/222932894-7badaeff-7e1b-4c48-b17a-41380aa6b55c.jpg) | ![Note](https://user-images.githubusercontent.com/111187206/222932895-b763f984-d816-477e-9c16-1749fbf93a06.jpg)
 
 ## Required dependencies
-java
-
+```java
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
@@ -29,10 +28,11 @@ dependencies {
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
 }
+```
 
 ## Version's used
-### Android Studio: ```Electric eel 2022.1.1```
-### Room  database version: ```2.5.0```
+#### Android Studio: ```Electric eel 2022.1.1```
+#### Room  database version: ```2.5.0```
 
 ## Minimal version of the Android
-### ```Android API is 23 (6.0)```
+#### ```Android API is 23 (6.0)```
