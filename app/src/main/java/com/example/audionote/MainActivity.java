@@ -14,9 +14,8 @@ import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Bundle;
-import android.os.Handler;
+import android.util.Log;
 import android.widget.ImageButton;
-import android.widget.SeekBar;
 import android.widget.Toast;
 
 import note.NotesActivity;
@@ -26,9 +25,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
-import java.util.List;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements AudioNotesAdapter.onPlayButtonClick{
@@ -42,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
     private String recordAccess = Manifest.permission.RECORD_AUDIO;
     private MediaRecorder mediaRecorder;
     private String recordFileName;
-    private List<File> fileCatalog;
+    private File[] fileCatalog;
     private AudioNotesAdapter audioNotesAdapter;
     private File currentFilePlaying;
     private MediaPlayer mediaPlayer = null;
@@ -57,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
 
         String path = MainActivity.this.getExternalFilesDir("/").getAbsolutePath();
         File direct = new File(path);
-        fileCatalog = Arrays.asList(direct.listFiles());
+        fileCatalog = direct.listFiles();
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
 
@@ -68,7 +65,6 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
         recyclerView.addItemDecoration(divider);
 
         recyclerView.setLayoutManager(linearLayoutManager);
-        recyclerView.setHasFixedSize(true);
         audioNotesAdapter = new AudioNotesAdapter(fileCatalog, this);
         recyclerView.setAdapter(audioNotesAdapter);
 
@@ -121,7 +117,6 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
                 //Recording started
                 if(allowToMic()) {
                     startRecording();
-
                     imageButton.setBackgroundResource(R.color.white);
                     imageButton.setImageResource(R.drawable.pause_48);
                     Toast toast = Toast.makeText(getApplicationContext(),
@@ -137,12 +132,12 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
                 Toast toast = Toast.makeText(getApplicationContext(),
                         "Stopped!", Toast.LENGTH_SHORT);
                 toast.show();
-                isRecording = false;
             }
         });
     }
 
     private void stopRecording() {
+        isRecording = false;
         mediaRecorder.stop();
         mediaRecorder.release();
         mediaRecorder = null;
@@ -150,15 +145,15 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
 
     private void startRecording() {
         String recordPath = MainActivity.this.getExternalFilesDir("/").getAbsolutePath();
-        SimpleDateFormat dataOfRecording = new SimpleDateFormat(" hh:mm:ss", Locale.getDefault());
+        SimpleDateFormat dataOfRecording = new SimpleDateFormat("hhmmss", Locale.getDefault());
         Date currentTime = new Date();
-        recordFileName = "AudioNote" + dataOfRecording.format(currentTime) + ".3gp";
+        recordFileName = "AudioNote" + dataOfRecording.format(currentTime) + ".aac";
 
         mediaRecorder = new MediaRecorder();
         mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-        mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
+        mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.AAC_ADTS);
         mediaRecorder.setOutputFile(recordPath + "/" + recordFileName);
-        mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+        mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
 
         try {
             mediaRecorder.prepare();
@@ -166,7 +161,6 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
             throw new RuntimeException(e);
         }
         mediaRecorder.start();
-
     }
 
     private boolean allowToMic() {
@@ -181,14 +175,15 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
 
     @Override
     public void onClickPlayButton(File file, int position) {
-        if(isStarted) {
-            stopAudioNote();
-            playAudioNote(currentFilePlaying);
-        }
-        else {
-            currentFilePlaying = file;
-            playAudioNote(currentFilePlaying);
-        }
+       if(isStarted) {
+           stopAudioNote();
+           Log.d("PLAY", "STOP");
+       }
+       else {
+           Log.d("PLAY", "START FUCKING PLAY");
+           currentFilePlaying = file;
+           playAudioNote(currentFilePlaying);
+       }
     }
 
     private void stopAudioNote() {
@@ -196,17 +191,17 @@ public class MainActivity extends AppCompatActivity implements AudioNotesAdapter
         mediaPlayer.stop();
     }
 
-    private void playAudioNote(@NonNull File file) {
+    private void playAudioNote(File currentFilePlaying) {
+
         mediaPlayer = new MediaPlayer();
 
         try {
-            mediaPlayer.setDataSource(file.getAbsolutePath());
+            mediaPlayer.setDataSource(currentFilePlaying.getAbsolutePath());
             mediaPlayer.prepare();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        mediaPlayer.setOnPreparedListener(MediaPlayer::start);
-        isRecording = true;
-        mediaPlayer.setOnCompletionListener(mp -> stopAudioNote());
+        isStarted = true;
+        mediaPlayer.setOnPreparedListener(mp -> mp.start());
     }
 }

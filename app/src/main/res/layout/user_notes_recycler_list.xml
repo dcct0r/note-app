@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/default_margins"
     android:paddingStart="@dimen/default_margins"
+    android:background="@color/white"
     >
 
     <TextView
@@ -14,6 +15,7 @@
         android:fontFamily="@font/roboto_bold"
         android:textSize="@dimen/headline"
         android:hint="@string/write_your_thoughts_here"
+        android:textColor="@color/black"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

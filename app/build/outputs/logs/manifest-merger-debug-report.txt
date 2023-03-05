@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.databinding:viewbinding:7.4.1] C:\Users\Roman\.gradle\caches\transforms-3\5e4f587c049de9aef1689456d23061a8\transformed\viewbinding-7.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Roman\.gradle\caches\transforms-3\dfe455107600617cfcbe36a5c8cee19f\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Roman\.gradle\caches\transforms-3\ddf83f750e2b46d45c980e431ca0a682\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -51,22 +51,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Roman\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Roman\.gradle\caches\transforms-3\ba26b032571efe3047e393aed466c638\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Roman\.gradle\caches\transforms-3\8d866ddde2cdf8a7053c54c56694d22e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Roman\.gradle\caches\transforms-3\728ab5a088fb13b3bd2d361b8ab1f5a8\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:2:11-69
@@ -74,8 +74,16 @@ uses-permission#android.permission.RECORD_AUDIO
 ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:5:5-70
 	android:name
 		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:5:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:7:5-51:19
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:9:5-54:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Roman\.gradle\caches\transforms-3\dfe455107600617cfcbe36a5c8cee19f\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Roman\.gradle\caches\transforms-3\dfe455107600617cfcbe36a5c8cee19f\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Roman\.gradle\caches\transforms-3\ddf83f750e2b46d45c980e431ca0a682\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -94,70 +102,72 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Roman\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Roman\.gradle\caches\transforms-3\9b7de33db6878c842f3a569e4f99463f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Roman\.gradle\caches\transforms-3\2588dbebb914a4847c23b9e2e9390de9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Roman\.gradle\caches\transforms-3\2588dbebb914a4847c23b9e2e9390de9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:10:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Roman\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:15:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:16:9-29
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:19:9-29
 	android:icon
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:15:9-47
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:18:9-47
 	android:dataExtractionRules
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:12:9-65
 	android:name
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:13:9-39
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:16:9-39
 activity#com.example.audionote.MainActivity
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:17:9-27:20
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:20:9-30:20
 	android:screenOrientation
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:20:13-49
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:23:13-49
 	android:exported
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:18:13-41
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:21:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:28:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:28:9-30:57
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:31:9-33:57
 	android:resource
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:30:13-54
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:33:13-54
 	android:name
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:32:13-43
 activity#note.NotesActivity
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:32:9-36:20
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:35:9-39:20
 	android:screenOrientation
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:33:13-49
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:36:13-49
 	android:name
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:32:19-52
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:35:19-52
 activity#InfoActivity.InfoActivity
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:38:9-42:20
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:41:9-45:20
 	android:screenOrientation
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:39:13-49
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:42:13-49
 	android:name
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:38:19-59
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:41:19-59
 activity#UiScreen.description.NoteDescription
-ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:44:9-49:20
+ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:47:9-52:20
 	android:screenOrientation
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:49:13-49
 	android:theme
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:48:13-56
 	android:name
-		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:44:19-70
+		ADDED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml:47:19-70
 uses-sdk
 INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Roman\AndroidStudioProjects\Audionote\app\src\main\AndroidManifest.xml

@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/default_margins"
-    tools:context="InfoActivity.InfoActivity">
+    android:background="@color/white"
+    tools:context="InfoActivity.InfoActivity"
+    >
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavPanel"
@@ -87,6 +89,7 @@
         android:textColor="@color/black"
         android:text="@string/release_version_0_0_1"
         android:gravity="bottom|end"
+        android:layout_marginBottom="@dimen/default_margins"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

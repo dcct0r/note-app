@@ -1,32 +1,25 @@
 package com.example.audionote;
 
 import android.annotation.SuppressLint;
-import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.SeekBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.io.File;
-import java.util.List;
-
 
 public class AudioNotesAdapter extends RecyclerView.Adapter<AudioNotesAdapter.AudioNoteHolder> {
 
-    private List<File> f;
+    private File[] f;
     private LastRecord lastRecord;
     private onPlayButtonClick playButton;
-    private boolean isListing = false;
 
-    public interface onPlayButtonClick {
-        void onClickPlayButton(File file, int position);
-    }
-    public AudioNotesAdapter(List<File> f, onPlayButtonClick playButton) {
+    public AudioNotesAdapter(File[] f, onPlayButtonClick playButton) {
         this.f = f;
         this.playButton = playButton;
     }
@@ -35,34 +28,22 @@ public class AudioNotesAdapter extends RecyclerView.Adapter<AudioNotesAdapter.Au
     @Override
     public AudioNoteHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.user_audionotes_recycler_list, parent, false);
+        lastRecord = new LastRecord();
         return new AudioNoteHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull AudioNoteHolder holder, @SuppressLint("RecyclerView") int position) {
-        lastRecord = new LastRecord();
-        holder.headline.setText(f.get(position).getName());
-        holder.dataOfTheRec.setText(lastRecord.getLastRecord(f.get(position).lastModified()));
-
-        holder.onPlayOnStop.setOnClickListener(v -> {
-            if(isListing) {
-                holder.onPlayOnStop.setImageResource(R.drawable.pause_48);
-                isListing = false;
-            }
-            else {
-                holder.onPlayOnStop.setImageResource(R.drawable.play_48);
-                isListing = true;
-            }
-        });
-
+        holder.headline.setText(f[position].getName());
+        holder.dataOfTheRec.setText(lastRecord.getLastRecord(f[position].lastModified()));
     }
 
     @Override
     public int getItemCount() {
-        return f.size();
+        return f.length;
     }
 
-    public class AudioNoteHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public class AudioNoteHolder extends RecyclerView.ViewHolder {
 
         TextView headline;
         TextView dataOfTheRec;
@@ -76,18 +57,25 @@ public class AudioNotesAdapter extends RecyclerView.Adapter<AudioNotesAdapter.Au
             onPlayOnStop = itemView.findViewById(R.id.play_or_pause);
             deleteThoughts = itemView.findViewById(R.id.deleteCurrentAudioNote);
 
-            deleteThoughts.setOnClickListener(v -> {
-                f.get(getAdapterPosition()).delete();
-                notifyItemRemoved(getAdapterPosition());
+            deleteThoughts.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    f[getAdapterPosition()].delete();
+                    notifyItemRemoved(getAdapterPosition());
+                    notifyItemChanged(getAdapterPosition());
+                    notifyItemRangeRemoved(getAdapterPosition(), f.length);
+                    notifyItemRangeChanged(getAdapterPosition(), f.length);
+                }
             });
-
-            onPlayOnStop.setOnClickListener(this);
-
+            onPlayOnStop.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    playButton.onClickPlayButton(f[getAdapterPosition()], getAdapterPosition());
+                }
+            });
         }
-
-        @Override
-        public void onClick(View v) {
-            playButton.onClickPlayButton(f.get(getAdapterPosition()), getAdapterPosition());
-        }
+    }
+    public interface onPlayButtonClick {
+        void onClickPlayButton(File file, int position);
     }
 }

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.example.audionote.app-mergeDebugResources-32:/layout/activity_main.xml",
-        "source": "com.example.audionote.app-main-35:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-mergeDebugResources-32:\\layout\\settings_layout.xml",
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\settings_layout.xml"
     },
@@ -30,5 +26,9 @@
     {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-mergeDebugResources-32:\\layout\\user_audionotes_recycler_list.xml",
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\user_audionotes_recycler_list.xml"
+    },
+    {
+        "merged": "com.example.audionote.app-mergeDebugResources-32:/layout/user_audionotes_recycler_list.xml",
+        "source": "com.example.audionote.app-main-35:/layout/user_audionotes_recycler_list.xml"
     }
 ]

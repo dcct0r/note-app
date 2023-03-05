@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.audionote.app-merged_res-33:/layout_user_audionotes_recycler_list.xml.flat",
+        "source": "com.example.audionote.app-main-35:/layout/user_audionotes_recycler_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\layout_user_audionotes_recycler_list.xml.flat",
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\layout\\user_audionotes_recycler_list.xml"
     },
@@ -98,10 +102,6 @@
     {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\drawable_pause_48.xml.flat",
         "source": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-main-35:\\drawable\\pause_48.xml"
-    },
-    {
-        "merged": "com.example.audionote.app-merged_res-33:/layout_activity_main.xml.flat",
-        "source": "com.example.audionote.app-main-35:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Roman\\.gradle\\daemon\\7.5\\com.example.audionote.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
