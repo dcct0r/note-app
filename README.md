@@ -31,8 +31,8 @@ dependencies {
 ```
 
 ## Version's used
-#### Android Studio: ```Electric eel 2022.1.1```
-#### Room  database version: ```2.5.0```
++ Android Studio: ```Electric eel 2022.1.1```
++ Room  database version: ```2.5.0```
 
 ## Minimal version of the Android
-#### ```Android API is 23 (6.0)```
++ ```Android API is 23 (6.0)```
